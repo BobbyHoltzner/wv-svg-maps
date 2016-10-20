@@ -1,0 +1,20 @@
+{
+  "name": "wv-svg-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify js/main.js -o js/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0"
+  },
+  "dependencies": {
+    "panzoom": "^1.2.2",
+    "svg-pan-zoom": "github:ariutta/svg-pan-zoom"
+  }
+}
