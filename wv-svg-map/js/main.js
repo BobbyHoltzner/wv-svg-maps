@@ -1,2 +1,2 @@
-const panzoom = require("panzoom");
-// let instance = panzoom('#map');
+var svgPanZoom = require("svg-pan-zoom");
+var panZoomTiger = svgPanZoom('#map');
